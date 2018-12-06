@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:title="EditProfile" />
+        <item
+            android:id="@+id/nav_test"
+            android:title="Test" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="FAQs" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Community" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="Notifications" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_refresh"
+                android:title="Download tests" />
+            <item
+                android:id="@+id/nav_share"
+                android:title="Request New Feature" />
+            <item
+                android:id="@+id/nav_d"
+                android:title="Back up and restore" />
+            <item
+                android:id="@+id/nav_feed"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_privacy"
+                android:title="Terms and Privacy Policy" />
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Logout" />
+
+
+        </menu>
+    </item>
+
+</menu>

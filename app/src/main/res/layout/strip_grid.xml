@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/padding"
+    android:weightSum="2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:padding="@dimen/padding"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/list_text_size" />
+            <TextView
+                android:id="@+id/leu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:padding="@dimen/padding"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/list_text_size" />
+            <TextView
+                android:id="@+id/nit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/list_text_size" />
+            <TextView
+                android:id="@+id/uro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/list_text_size" />
+            <TextView
+                android:id="@+id/pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Cost"
+                android:textColor="@color/oil"
+                android:padding="@dimen/padding" />
+        <TextView
+            android:id="@+id/ph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Cost"
+            android:textColor="@color/oil"
+            android:padding="@dimen/padding" />
+        <TextView
+            android:id="@+id/blo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Cost"
+            android:textColor="@color/oil"
+            android:padding="@dimen/padding" />
+        <TextView
+            android:id="@+id/sg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Cost"
+            android:textColor="@color/oil"
+            android:padding="@dimen/padding" />
+        <TextView
+            android:id="@+id/ket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Cost"
+            android:textColor="@color/oil"
+            android:padding="@dimen/padding" />
+        <TextView
+            android:id="@+id/bil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Cost"
+            android:textColor="@color/oil"
+            android:padding="@dimen/padding" />
+        <TextView
+            android:id="@+id/glu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Cost"
+            android:textColor="@color/oil"
+            android:padding="@dimen/padding" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

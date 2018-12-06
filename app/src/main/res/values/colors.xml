@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BD10E0</color>
+    <color name="colorPrimaryDark">#5C007A</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary">#E43F3F</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="accent">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#316AC4</color>
+    <color name="gray">#FF000000</color>
+    <color name="whitegrey">#e3e3e3</color>
+    <color name="list">#FF7A79</color>
+    <color name="calendar">#FF7A79</color>
+    <color name="background">#218C81</color>
+    <color name="button">#1161EE</color>
+    <color name="colorBar">#7F3E98</color>
+    <color name="spinner">#81A8D5</color>
+    <color name="orange">#F8A058</color>
+    <color name="green">#5fba7d</color>
+    <color name="title_session">#ebf8a4</color>
+    <color name="button_background">#39a3c6</color>
+    <color name="gold"> #FFE791</color>
+    <color name="bv">#5C007A</color>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.LinearLayoutCompat>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:background="@color/white"
+                android:layout_marginBottom="3dp"
+                android:paddingTop="@dimen/activity_vertical_margin">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/preview"
+                    android:layout_width="96dp"
+                    android:padding="@dimen/padding"
+                    android:layout_height="96dp"
+                    android:src="@drawable/bv_logo"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FE4080"/>
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding"
+                    android:layout_marginLeft="32dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name:  "
+
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/age"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Age:  "
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/location"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Location:  "
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/test"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Last test:  "
+                        android:textColor="@color/blue"
+                        android:textSize="16sp" />
+                </android.support.v7.widget.LinearLayoutCompat>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/kit_btn"
+                        android:text="Run kit"
+                        android:padding="@dimen/padding"
+                        android:layout_width="@dimen/grid_width"
+                        android:layout_height="@dimen/grid_height"
+                        android:background="@color/white"
+                        android:layout_margin="@dimen/btn_margin"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:drawableTop="@drawable/test" />
+                    <Button
+                        android:id="@+id/visual_btn"
+                        android:text="Visual test"
+                        android:background="@color/white"
+                        android:padding="@dimen/padding"
+                        android:layout_margin="@dimen/btn_margin"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="@dimen/grid_width"
+                        android:layout_height="@dimen/grid_height"
+                        android:drawableTop="@drawable/visual" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/test_btn"
+                        android:text="My tests"
+                        android:padding="@dimen/padding"
+                        android:layout_margin="@dimen/btn_margin"
+                        android:background="@color/white"
+                        android:layout_width="@dimen/grid_width"
+                        android:layout_height="@dimen/grid_height"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:drawableTop="@drawable/list" />
+                    <Button
+                        android:id="@+id/appoint_btn"
+                        android:text="BOOK APPOINTMENT"
+                        android:padding="@dimen/padding"
+                        android:background="@color/white"
+                        android:layout_margin="@dimen/btn_margin"
+                        android:layout_width="@dimen/grid_width"
+                        android:layout_height="@dimen/grid_height"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:drawableTop="@drawable/cal" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
